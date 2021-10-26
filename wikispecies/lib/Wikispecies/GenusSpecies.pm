@@ -18,12 +18,11 @@ Version 0.01
 
 our $VERSION = '0.01';
 
-
 # Actually allow methods to be exported
 use Exporter 'import';
 our @EXPORT_OK = qw(noParens rmOdds noVars compareGP);
 our %EXPORT_TAGS = ( all => \@EXPORT_OK);
-our @EXPORT = qw(noParens rmOdds noVars compareGP);
+our @EXPORT = \@EXPORT_OK;
 
 
 =head1 SYNOPSIS

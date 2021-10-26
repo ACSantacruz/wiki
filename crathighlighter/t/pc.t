@@ -3,7 +3,6 @@
 
 use strict;
 use warnings;
-use diagnostics;
 
 # Defaults to 5, only showing the most severe.  Fine.
 use Test::Perl::Critic;
